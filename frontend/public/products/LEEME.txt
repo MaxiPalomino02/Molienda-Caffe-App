@@ -1,0 +1,5 @@
+FOTOS DE PRODUCTOS
+==================
+La app usa /products/<nombre>.jpg y, si no existe, muestra la ilustracion /products/<nombre>.svg.
+Los 10 productos ya tienen foto real (.jpg). Para cambiar una, reemplaza el .jpg manteniendo el nombre
+(formato horizontal 4:3, ej. 1200x900).

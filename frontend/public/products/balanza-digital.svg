@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img">
+<defs>
+<linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eadfd0"/><stop offset="1" stop-color="#cbb08c"/></linearGradient>
+<radialGradient id="spot" cx=".5" cy=".42" r=".6"><stop offset="0" stop-color="#fff" stop-opacity=".55"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></radialGradient>
+<linearGradient id="beanshine" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".5"/><stop offset=".5" stop-color="#fff" stop-opacity="0"/></linearGradient>
+<linearGradient id="table" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#d9b78f"/><stop offset="1" stop-color="#c29868"/></linearGradient>
+<filter id="blur"><feGaussianBlur stdDeviation="9"/></filter>
+<linearGradient id="bagshade" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#000" stop-opacity=".18"/><stop offset=".3" stop-color="#fff" stop-opacity=".12"/><stop offset=".7" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".22"/></linearGradient><filter id="soft"><feGaussianBlur stdDeviation="3.2"/></filter></defs>
+<rect width="800" height="600" fill="url(#bg)"/>
+<rect width="800" height="600" fill="url(#spot)"/>
+<rect y="420" width="800" height="180" fill="url(#table)"/>
+<rect y="420" width="800" height="3" fill="#fff" opacity=".35"/>
+<g stroke="#a9794a" stroke-opacity=".25" stroke-width="2"><path d="M0 470H800M0 520H800M0 575H800"/></g>
+<ellipse cx="400" cy="488" rx="230" ry="24" fill="#2a1a10" opacity=".35" filter="url(#blur)"/>
+<rect x="190" y="360" width="420" height="120" rx="26" fill="#2c2623"/>
+<rect x="190" y="360" width="420" height="120" rx="26" fill="url(#bagshade)"/>
+<rect x="190" y="350" width="420" height="40" rx="20" fill="#3d3531"/>
+<rect x="210" y="352" width="380" height="8" rx="4" fill="#fff" opacity=".12"/>
+<rect x="300" y="395" width="200" height="56" rx="10" fill="#14110f"/>
+<text x="480" y="438" text-anchor="end" font-family="'Courier New',monospace" font-size="40" font-weight="700" fill="#e9a35f">0.0<tspan font-size="20"> g</tspan></text>
+<circle cx="240" cy="438" r="14" fill="#a8643c"/><circle cx="540" cy="438" r="14" fill="#6b705c"/>
+<text x="240" y="444" text-anchor="middle" font-family="Helvetica,Arial,sans-serif" font-size="14" fill="#faf5ec" font-weight="700">T</text>
+<ellipse cx="400" cy="342" rx="150" ry="22" fill="#9ca3a6"/>
+<ellipse cx="400" cy="338" rx="150" ry="22" fill="#d9dde0"/>
+<ellipse cx="400" cy="338" rx="130" ry="16" fill="#c4c9cc"/>
+<!-- jarra y filtro -->
+<path d="M335 160 H465 L440 262 H360 Z" fill="#faf5ec"/>
+<path d="M335 160 H465 L440 262 H360 Z" fill="url(#bagshade)"/>
+<ellipse cx="400" cy="160" rx="65" ry="12" fill="#fffaf0"/>
+<ellipse cx="400" cy="162" rx="52" ry="8" fill="#4a2c1d"/>
+<rect x="365" y="262" width="70" height="12" rx="4" fill="#a8643c"/>
+<path d="M370 274 H430 L420 322 H380 Z" fill="#e8f0f2" opacity=".75"/>
+<path d="M380 300 H420 L418 322 H382 Z" fill="#6b3f26" opacity=".85"/>
+<path d="M400 274 V298" stroke="#6b3f26" stroke-width="3" opacity=".7"/>
+<ellipse cx="400" cy="324" rx="24" ry="4" fill="#c9a06f" opacity=".0"/>
+
+</svg>
